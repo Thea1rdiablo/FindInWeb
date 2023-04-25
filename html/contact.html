@@ -27,47 +27,29 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" style="font-family: 'Source Serif Pro', serif;">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img
-              class="me-5 ms-5"
-              src="../img/FindIn web.png"
-              alt="logo"
-              width="100"
-              class="d-inline-block align-top"
-            />
+            <img class="me-5 ms-5" src="../img/FindIn web.png" alt="logo" width="100"
+            class="d-inline-block align-top">
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active ps-5 pe-5 me-4"
-                  aria-current="page"
-                  href="#"
-                  >Home</a
-                >
+                <a class="nav-link active ps-5 pe-5 me-4" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4" href="#">About us</a>
+                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4">Service</a>
+                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4">Contact</a>
+                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Contact</a>
               </li>
             </ul>
           </div>
@@ -75,14 +57,14 @@
       </nav>
     </header>
     <!-- Body -->
-    <main>
+    <main class="container">
       <div class="p-5 text-center">
         <h1>Get in touch With Us Today!</h1>
         <p>Why should you choose us for your needs?</p>
       </div>
-      <div class="">
-        <div class="row">
-          <div class="col-md-6 cyan-bg rounded-2">
+      <div class="pb-5">
+        <div class="row pe-5">
+          <div class="col-md-6 cyan-bg rounded-2 p-4">
             <h2>Contact Information</h2>
             <p class="">
               It's great to have you here! We're ready to answer your questions
@@ -94,13 +76,14 @@
               reach out we look forward to hearing from you!
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 ps-5">
             <div class="col-md-6">
               <div class="">
                 <div class="row">
+                  <!-- name -->
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label for="name"><h3>Name</h3></label>
+                      <label for="name"><p>Name</p></label>
                       <input
                         type="text"
                         class="form-control"
@@ -110,21 +93,24 @@
                       />
                     </div>
                   </div>
+                  <!-- last-name -->
                   <div class="col-md-6">
                     <div class="form-group">
-                        <label for="last-name"><h3>Last Name</h3></label>
+                        <label for="last-name"><p>Last Name</p></label>
                         <input type="text" class="form-control" id="last-name" name="last-name" required>
                       </div>
                   </div>
+                  <!-- Email -->
                   <div class="col-md-6"> 
                     <div class="form-group">
-                        <label for="email"><h3>Email</h3></label>
+                        <label for="email"><p>Email</p></label>
                         <input type="email" class="form-control" id="email" name="email" required>
                       </div>
                   </div>
+                  <!-- Phone -->
                   <div class="col-md-6">
                     <div class="form-group">
-                        <label for="phone"><h3>Phone</h3></label>
+                        <label for="phone"><p>Phone</p></label>
                         <input type="tel" class="form-control" id="phone" name="phone" required>
                       </div>
                   </div>

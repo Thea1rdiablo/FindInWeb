@@ -1,66 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-        /* Footer */
-        .footer{
-            background: black;
-            width: auto;
-            height: 50px;
-        }
-        .ul-footer{
-            padding-top: 10px;
-            justify-content: center;
-            display: flex;
-            gap: 80px;
-            list-style: none;
-            text-decoration: none;
-        }
-        .ul-footer li{
-            text-decoration: none;
-        }
-        .ul-footer a{
-            color: white;
-        }       
-    </style>
-    <title>About Us</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <style>
+    h1{
+      font: bold;
+    }
+    .cyan-text{
+      color: #6dface;
+    }
+    .cyan-bg{
+      background: #6dface;
+      width: auto;
+      height: auto;
+      border-top-left-radius: 180px;
+      
+    }
+    .content p{
+      padding: 60px;
+    }
+    .content h2{
+      padding: 60px;
+      color: white;
+      font:bold; 
+    }
+    .justify{
+      text-align: justify;
+    }
+    .pad{
+      padding: 100px;
+    }
+    .cyan-pic{
+      background: #6dface;
+
+    }
+    .square-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #6dface;
+    }
+
+    .circle-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+  </style>
 </head>
 <body>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <ul class="ul-footer">
-              <li>
-                <a href="#">@Findin</a>
-              </li>
-              <li>
-                <a href="#">Facebook</a>
-              </li>
-              <li>
-                <a href="#">Instagram</a>
-              </li>
-              <li>
-                <a href="#">LinkedIn</a>
-              </li>
-              <li>
-                <a href="#">Telegram</a>
-              </li>
-              <li>
-                <a href="#">TikTok</a>
-              </li>
-              <li>
-                <a href="#">
-    
-                </a>
-              </li>
-            </ul>
-          </div>          
-    </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+  <!-- Header -->
+  <header class="header" style="font-family: 'Source Serif Pro', serif;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="me-5 ms-5" src="../img/FindIn web.png" alt="logo" width="100"
+          class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active ps-5 pe-5 me-4" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Body -->
+  <main>
+    <div class="ps-5 pt-5 pb-5 fw-bolder">
+      <h1 class="fw-bolder">We help business</h1>
+      <h1 class="fw-bolder">Building their, <div class="d-inline cyan-text fw-bolder">website.</div></h1>
+    </div>
+    <div class="cyan-bg">
+      <divc class="container">
+        <h2  class="ps-5 pe-5 pt-5  text-white">Our Mission</h2>
+        <div class="row pt-4">
+          <div class="col-md-6 pe-5 ps-5">
+            <h3>Responsive</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
+          </div>
+          <div class="col-md-6 ps-5 pe-5">
+            <h3>Responsive</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
+          </div>
+          <div class="col-md-6 ps-5 pe-5">
+            <h3>Responsive</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
+          </div>
+          <div class="col-md-6 ps-5 pe-5">
+            <h3>Responsive</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1 class="p-3 fw-bolder">Meet our team</h1>
+    </div>
+    <div class="container ">
+      <div class="">
+        <div class="row pb-5">
+          <!-- quote -->
+          <div class="col-sm-6">
+            <div>
+              <i class="fas fa-quote-left"></i>
+              <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed ut ad! Quo molestias expedita sapiente odio maiores est exercitationem ratione suscipit vel in quidem vero nemo, distinctio, numquam placeat?
+              </p>
+              <p>Mr. Chomroeun HENG, Co-Founder.</p>
+            </div>
+          </div>
+          <!-- pic -->
+          <div class="col-sm-6">
+            <div class="square-container">
+              <img src="/img/portpf.png" alt="your-image" class="circle-image">
+            </div>  
+          </div>
+          </div>
+        <div class="row pb-5">
+          <!-- quote -->
+          <div class="col-sm-6">
+            <div>
+              <i class="fas fa-quote-left"></i>
+              <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed ut ad! Quo molestias expedita sapiente odio maiores est exercitationem ratione suscipit vel in quidem vero nemo, distinctio, numquam placeat?
+              </p>
+              <p>Mr. Chomroeun HENG, Co-Founder.</p>
+            </div>
+          </div>
+          <!-- pic -->
+          <div class="col-sm-6">
+            <div class="square-container">
+              <img src="/img/portpf.png" alt="your-image" class="circle-image">
+            </div>
+                      
+          </div>
+          </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-lg-start">
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-lg-start">
+          <ul class="list-unstyled d-flex flex-wrap px-xxl-5">
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >@FindInKH</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >Linked</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-light me-4"
+                >TikTok</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-lg-end">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">
+                <img src="/img/FindIn web.png" alt="FindIn" width="100" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-6Pw15npsaVfJg14fw8Fssj/vL9XZG0l81fwwWlNlIGdJbgiStxvLz/VDWElOJZCQ0QhffBMmS3uxQm+Wm7tEeA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
 </html>

@@ -59,6 +59,76 @@
       height: auto;
       border-radius: 50%;
     }
+    .fa-quote-left {
+      font-size: 3em; /* adjust the size as needed */
+      color:rgb(109, 250, 206);
+    }
+    .iconimg{
+      width: 60px;
+    }
+    
+    /* Extra small devices (phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .square-container {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #6dface;
+      margin: 0 auto;
+      }
+      .justify{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .names{
+        padding-left: 20px;
+        font-weight: bolder;
+      }
+   }
+
+  /* Small devices (phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .square-container {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #6dface;
+      }
+      .justify{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .names{
+        padding-left: 20px;
+        font-weight: bolder;
+      }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .square-container {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #6dface;
+      margin: 0 auto;;
+      }
+      .justify{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .names{
+        padding-left: 20px;
+        font-weight: bolder;
+      }
+   }
+
 
   </style>
 </head>
@@ -102,23 +172,35 @@
       <h1 class="fw-bolder">Building their, <div class="d-inline cyan-text fw-bolder">website.</div></h1>
     </div>
     <div class="cyan-bg">
-      <divc class="container">
+      <div class="container">
         <h2  class="ps-5 pe-5 pt-5  text-white">Our Mission</h2>
         <div class="row pt-4">
           <div class="col-md-6 pe-5 ps-5">
-            <h3>Responsive</h3>
+            <div class="d-inline-flex">
+              <img src="/img/responsiveicon.png" alt="responsive" class="iconimg">
+              <h3 class="pt-4 ps-3">Responsive</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
-            <h3>Responsive</h3>
+            <div class="d-inline-flex">
+              <img src="/img/ecommerceicon.png" alt="responsive" class="iconimg">
+              <h3 class="pt-4 ps-3">Responsive</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
-            <h3>Responsive</h3>
+            <div class="d-inline-flex">
+              <img src="/img/SEOicon.png" alt="responsive" class="iconimg">
+              <h3 class="pt-4 ps-3">Responsive</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
-            <h3>Responsive</h3>
+            <div class="d-inline-flex">
+              <img src="/img/supporticon.png" alt="responsive" class="iconimg">
+              <h3 class="pt-4 ps-3">Responsive</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
         </div>
@@ -132,36 +214,36 @@
         <div class="row pb-5">
           <!-- quote -->
           <div class="col-sm-6">
-            <div>
+            <div >
               <i class="fas fa-quote-left"></i>
               <p class="justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed ut ad! Quo molestias expedita sapiente odio maiores est exercitationem ratione suscipit vel in quidem vero nemo, distinctio, numquam placeat?
               </p>
-              <p>Mr. Chomroeun HENG, Co-Founder.</p>
+              <p class="names">Lyheng HUN, Founder.</p>
             </div>
           </div>
           <!-- pic -->
           <div class="col-sm-6">
             <div class="square-container">
-              <img src="/img/portpf.png" alt="your-image" class="circle-image">
+              <img src="/img/hunlyheng.png" alt="your-image" class="circle-image">
             </div>  
           </div>
           </div>
         <div class="row pb-5">
           <!-- quote -->
           <div class="col-sm-6">
-            <div>
+            <div  >
               <i class="fas fa-quote-left"></i>
               <p class="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed ut ad! Quo molestias expedita sapiente odio maiores est exercitationem ratione suscipit vel in quidem vero nemo, distinctio, numquam placeat?
+                "Life is a journey, and every step along the way is an opportunity to learn, grow, and become the best version of yourself. Embrace the ups and downs, the triumphs and the failures, for they all contribute to your unique story. The journey may not always be easy, but it will always be worth it."
               </p>
-              <p>Mr. Chomroeun HENG, Co-Founder.</p>
+              <p class="names">Chomroeun HENG, Co-Founder.</p>
             </div>
           </div>
           <!-- pic -->
           <div class="col-sm-6">
             <div class="square-container">
-              <img src="/img/portpf.png" alt="your-image" class="circle-image">
+              <img src="/img/hengchomroeun5.png" alt="your-image" class="circle-image">
             </div>
                       
           </div>

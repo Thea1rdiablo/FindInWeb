@@ -86,6 +86,9 @@
         padding-left: 20px;
         font-weight: bolder;
       }
+      h3{
+        font-size: 20px;
+      }
    }
 
   /* Small devices (phones, 576px and up) */
@@ -105,6 +108,9 @@
       .names{
         padding-left: 20px;
         font-weight: bolder;
+      }
+      h3{
+        font-size: 18px;
       }
   }
 
@@ -127,10 +133,164 @@
         padding-left: 20px;
         font-weight: bolder;
       }
+      h3{
+        font-size: 24px;
+      }
    }
 
 
   </style>
+  <style>
+    @media (max-width: 575.98px) { 
+        footer {
+            display: flex;
+            justify-content: center; /* Horizontally center the list items */
+            align-items: center; /* Vertically center the list items */
+          }
+          
+          ul {
+            list-style: none;
+            display: flex;
+            align-items: center; /* Vertically center the list items within the UL */
+            justify-content: center; /* Horizontally center the list items within the UL */
+          }
+          
+          ul li {
+            margin: 0 4px;
+          }
+          ul li a{
+            font-size: 11px;
+          }
+          ul li a img{
+            width: 20px;
+          }
+       }
+    
+      /* Small devices (phones, 576px and up) */
+      @media (min-width: 576px) { 
+        footer {
+            display: flex;
+            justify-content: center; /* Horizontally center the list items */
+            align-items: center; /* Vertically center the list items */
+          }
+          
+          ul {
+            list-style: none;
+            display: flex;
+            align-items: center; /* Vertically center the list items within the UL */
+            justify-content: center; /* Horizontally center the list items within the UL */
+          }
+          
+          ul li {
+            margin: 0 6px;
+          }
+      }
+/* Small screens (default) */
+@media (min-width: 640px) {
+    /* Add your styles here */
+    footer {
+        display: flex;
+        justify-content: center; /* Horizontally center the list items */
+        align-items: center; /* Vertically center the list items */
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center; /* Vertically center the list items within the UL */
+        justify-content: center; /* Horizontally center the list items within the UL */
+      }
+      
+      ul li {
+        margin: 0 10px;
+      }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) {
+    /* Add your styles here */
+    footer {
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+    /* Add your styles here */
+    footer {
+        display: flex;
+        justify-content: center; /* Horizontally center the list items */
+        align-items: center; /* Vertically center the list items */
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center; /* Vertically center the list items within the UL */
+        justify-content: center; /* Horizontally center the list items within the UL */
+      }
+      
+      ul li {
+        margin: 0 30px;
+      }
+}
+
+/* Extra large screens (large desktops) */
+@media (min-width: 1280px) {
+    /* Add your styles here */
+    footer {
+        display: flex;
+        justify-content: center; /* Horizontally center the list items */
+        align-items: center; /* Vertically center the list items */
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center; /* Vertically center the list items within the UL */
+        justify-content: center; /* Horizontally center the list items within the UL */
+      }
+      
+      ul li {
+        margin: 0 40px;
+      }
+}
+
+/* 2xl screens (larger desktops) */
+@media (min-width: 1536px) {
+    /* Add your styles here */
+    footer {
+        display: flex;
+        justify-content: center; /* Horizontally center the list items */
+        align-items: center; /* Vertically center the list items */
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center; /* Vertically center the list items within the UL */
+        justify-content: center; /* Horizontally center the list items within the UL */
+      }
+      
+      ul li {
+        margin: 0 60px;
+      }
+}
+       display: flex;
+        justify-content: center; /* Horizontally center the list items */
+        align-items: center; /* Vertically center the list items */
+      }
+      
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center; /* Vertically center the list items within the UL */
+        justify-content: center; /* Horizontally center the list items within the UL */
+      }
+      
+      ul li {
+        margin: 0 20px;
+      }
+}
+
+</style>
 </head>
 <body>
 
@@ -167,39 +327,39 @@
 
   <!-- Body -->
   <main>
-    <div class="ps-5 pt-5 pb-5 fw-bolder">
+    <div class="pt-5 pb-5 fw-bolder container">
       <h1 class="fw-bolder">We help business</h1>
       <h1 class="fw-bolder">Building their, <div class="d-inline cyan-text fw-bolder">website.</div></h1>
     </div>
     <div class="cyan-bg">
-      <div class="container">
-        <h2  class="ps-5 pe-5 pt-5  text-white">Our Mission</h2>
+      <div class="container" style="padding-bottom: 80px;">
+        <h2  class="ps-5 pe-5 pt-5  text-white" style="font-weight: bolder;">Our Mission</h2>
         <div class="row pt-4">
           <div class="col-md-6 pe-5 ps-5">
             <div class="d-inline-flex">
               <img src="/img/responsiveicon.png" alt="responsive" class="iconimg">
-              <h3 class="pt-4 ps-3">Responsive</h3>
+              <h3 class="pt-4 ps-3"  style="font-weight: bolder;">Responsive</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
             <div class="d-inline-flex">
               <img src="/img/ecommerceicon.png" alt="responsive" class="iconimg">
-              <h3 class="pt-4 ps-3">Responsive</h3>
+              <h3 class="pt-4 ps-3"  style="font-weight: bolder;">to E-Commerce</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
             <div class="d-inline-flex">
               <img src="/img/SEOicon.png" alt="responsive" class="iconimg">
-              <h3 class="pt-4 ps-3">Responsive</h3>
+              <h3 class="pt-4 ps-3" style="font-weight: bolder;"> First page ranking</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
           <div class="col-md-6 ps-5 pe-5">
             <div class="d-inline-flex">
               <img src="/img/supporticon.png" alt="responsive" class="iconimg">
-              <h3 class="pt-4 ps-3">Responsive</h3>
+              <h3 class="pt-4 ps-3" style="font-weight: bolder;"> Fuly supportive team</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda modi sint laboriosam delectus magnam quia ipsam ex tempore sit reiciendis sed facilis ea iste, saepe ab incidunt corporis in eos?</p>
           </div>
@@ -253,49 +413,44 @@
   </main>
   <!-- Footer -->
   <footer class="bg-dark text-center text-lg-start">
-    <div class="container-fluid p-4">
+    <div class="container-fluid ">
       <div class="row">
-        <div class="col-lg-6 d-flex justify-content-lg-start">
-          <ul class="list-unstyled d-flex flex-wrap px-xxl-5">
+          <ul class="list-unstyled d-flex flex-wrap gaps">
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >@FindInKH</a
               >
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >Facebook</a
               >
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >Instagram</a
               >
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >Linked</a
               >
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >Telegram</a
               >
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-light me-4"
+              <a href="#" class="text-decoration-none text-light"
                 >TikTok</a
               >
             </li>
-          </ul>
-        </div>
-        <div class="col-lg-6 d-flex justify-content-lg-end">
-          <ul class="list-unstyled">
             <li>
-              <a href="#" class="text-decoration-none">
-                <img src="/img/FindIn web.png" alt="FindIn" width="100" />
-              </a>
-            </li>
+                <a href="#" class="text-decoration-none">
+                  <img src="/img/FindIn web.png" alt="FindIn" width="40" />
+                </a>
+              </li>
           </ul>
         </div>
       </div>

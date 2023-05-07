@@ -519,40 +519,48 @@
             ul li {
               margin: 0 60px;
             }
-      }    
+      }  
+      .list ul li a{
+  color:#6dface
+}
+.list ul li a:hover,
+.list ul li a.active{
+  color: white;
+  transform: scale(1.1);
+}  
     </style>
   </head>
   <body>
-    <!-- Header -->
-    <header class="header" style="font-family: 'Source Serif Pro', serif;">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="me-5 ms-5" src="../img/FindIn web.png" alt="logo" width="100"
-            class="d-inline-block align-top">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active ps-5 pe-5 me-4" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ps-5 pe-5 me-4" href="#" style="color:rgb(109, 250, 206)">Contact</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Header -->
+  <header class="header" style="font-family: 'Source Serif Pro', serif;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid list">
+        <a class="navbar-brand" href="#">
+          <img class="me-5 ms-5" src="../img/FindIn web.png" alt="logo" width="100"
+          class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link  ps-5 pe-5 me-4" href="/html/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  ps-5 pe-5 me-4" href="/html/aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 pe-5 me-4" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ps-5 pe-5 me-4" href="/html/contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
     <!-- Body -->
     <main class="ps-5 pe-5">
       <div class="p-5 text-center">
